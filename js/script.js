@@ -1,4 +1,4 @@
 function unhide() {
     var div = document.getElementById('add');
-    div.innerHTML += 'fag';
+    div.innerHTML += 'fag ';
 }
