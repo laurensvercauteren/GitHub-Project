@@ -1,5 +1,5 @@
 function unhide() {
-    var div = document.getElementById('add');
+    var div = document.getElementByClassName('add');
     div.innerHTML += 'fag ';
-    div.classList.remove('add');
+    div.classList.remove("add");
 }
