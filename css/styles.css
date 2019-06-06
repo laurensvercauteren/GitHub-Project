@@ -8,8 +8,17 @@ section {
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 .section {
-    height: 100vh;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.profile {
+    border-radius: 50%
 }
