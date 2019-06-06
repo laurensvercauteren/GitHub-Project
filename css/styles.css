@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Varela Round';
+    src: url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap')
+}
+
 header {
     padding: 156px 0 100px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 section {
@@ -10,10 +16,12 @@ section {
 html {
     scroll-behavior: smooth;
     height: 100%;
+    font-family: 'Varela Round', sans-serif;
 }
 
 body {
     height: 100%;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .profile {
