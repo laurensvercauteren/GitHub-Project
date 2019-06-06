@@ -22,3 +22,7 @@ body {
 .profile {
     border-radius: 50%
 }
+
+.bckgrnd {
+    background-image: url('/GitHub-Project/img/blur_street.png');
+}
