@@ -61,3 +61,8 @@ body {
     background: rgba(128, 128, 128, 0.3);
     border-radius: 12px;
 }
+
+hr {
+    color: white;
+    width: 30%;
+}
