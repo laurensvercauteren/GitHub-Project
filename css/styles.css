@@ -24,21 +24,21 @@ body {
     border-radius: 50%;
 }
 
-.bckgrnd {
-    background-image: url('/img/blur_street.jpg');
+#welcome {
+    background-image: url('/GitHub-Project/img/blur_street.jpg');
     text-align: center;
 }
 
 #home {
-    background-image: url('/GitHub-Project/img/blur_street.jpg');
+    background-image: url('/GitHub-Project/img/apple.jpg');
 }
 
 #about {
-    background-image: url('/GitHub-Project/img/blur_street.jpg');
+    background-image: url('/GitHub-Project/img/appartment.jpg');
 }
 
 #contact {
-    background-image: url('/GitHub-Project/img/blur_street.jpg');
+    background-image: url('/GitHub-Project/img/chair.jpg');
 }
 
 .overlay:before {
