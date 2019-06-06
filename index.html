@@ -4,6 +4,7 @@
 <head>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="href=/GitHub-Project/css/bootstrap.css">
+    <link rel="stylesheet" href="href=/GitHub-Project/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link type="text/css" rel="stylesheet" href="/GitHub-Project/css/style.css" />
     <title>Welcome to the Lau site</title>
@@ -11,81 +12,93 @@
 
 <body background="/GitHub-Project/img/blur_street.jpg">
 
-    <!-- navigation -->
-    <nav id="navbar" class="invisible" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Laurens Vercauteren</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-
-        <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#About">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Past projects">Past projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Contact</a>
-                </li>
-            </ul>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <!-- Welcome page -->
-    <h1 class="add" id="welcome">Welcome</h1>
-    <button class="button" id="welcomebutton" onclick="hideWelcome()">Enter site</button>
-
     <!-- Home -->
-    <div id="Home" class="invisible">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices, diam et sollicitudin dignissim, magna magna vehicula libero, ac varius mauris sem eu ipsum. Fusce ultricies auctor diam, a dignissim augue finibus eget. Suspendisse potenti.
-            Vestibulum varius erat nulla, ac pellentesque felis placerat ac. Curabitur rutrum volutpat ultricies. Phasellus eget dapibus elit. Pellentesque efficitur consequat sem, ac vehicula risus posuere vel. In hac habitasse platea dictumst. Cras
-            facilisis purus nec urna iaculis, in ornare ipsum fringilla. Etiam maximus eros felis, non pellentesque augue faucibus id. Pellentesque accumsan neque a dignissim commodo. Curabitur vitae nulla sit amet enim placerat lacinia quis in dui. Vestibulum
-            mattis ac velit ut laoreet. Curabitur et accumsan dolor, in venenatis nibh. Pellentesque vehicula magna a augue vehicula, quis fermentum mi semper. Nam ultrices tortor vel nisl mollis, sed consequat purus aliquam. Donec congue, tortor id consectetur
-            porttitor, massa ligula faucibus libero, sed malesuada lectus nunc non lacus. Nam ultricies, mauris eu pretium tincidunt, massa mi tempus massa, in aliquet eros lacus sit amet purus. Curabitur odio risus, vulputate quis lacus interdum, luctus
-            viverra libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pulvinar tempus sapien vel pulvinar. In augue neque, pretium non dapibus sit amet, congue at ipsum. Cras fermentum sagittis
-            justo nec tristique. Mauris dictum sagittis velit eget congue. Mauris vitae posuere diam, sit amet dictum ligula.
-        </p>
-    </div>
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Home</h2>
+                    <p class="lead">Home page:</p>
+                    <ul>
+                        <li>Clickable nav links that smooth scroll to page sections</li>
+                        <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+                        <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+                        <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- About -->
-    <div id="About" class="invisible">
-
-
-    </div>
-
-
-    <!-- Past projects -->
-
-    <div class="invisible">
-
-
-    </div>
-
-    <!-- Page 3 -->
-
-
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Home</h2>
+                    <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+                    <ul>
+                        <li>Clickable nav links that smooth scroll to page sections</li>
+                        <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+                        <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+                        <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact -->
 
-    <div class="invisible">
-
-
-    </div>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Home</h2>
+                    <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+                    <ul>
+                        <li>Clickable nav links that smooth scroll to page sections</li>
+                        <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+                        <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+                        <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href="https://www.linkedin.com/in/laurens-vercauteren-19150678/"> Laurens</a>
-    </div>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Laurens Vercauteren 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
     <!-- Copyright -->
 
     <!-- Custom script -->
