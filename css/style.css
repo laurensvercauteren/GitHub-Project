@@ -2,9 +2,17 @@ body {
     background-color: grey;
 }
 
-p {
+h1 {
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color: white
+}
+
+p {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
     text-align: center;
     vertical-align: middle;
     color: white
@@ -15,7 +23,7 @@ p {
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: rgb(65, 114, 67);
     border: none;
     color: white;
     padding: 15px 32px;
